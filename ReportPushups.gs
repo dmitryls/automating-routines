@@ -9,7 +9,7 @@ function Report_Pushups() {
   var CurrentCell = "";
  
   //look for pushups row if it is not 9th
-  if (String(lastSheet.getRange(PushupsRow,1).getValues()) != "Body to body") {
+  if (String(lastSheet.getRange(PushupsRow,1).getValues()) != "Pushups") {
     while (CurrentRow <= LastRow) {
       CurrentRowName = String(lastSheet.getRange(CurrentRow,1).getValues());
       ++CurrentRow; 
